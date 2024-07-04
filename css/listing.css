@@ -36,6 +36,9 @@
 #listing-hover {
   display: none;
 }
+#listing-hover:hover {
+  display: block;
+}
 #first-menu-element:hover + #listing-hover {
   display: block;
 }
@@ -285,7 +288,7 @@ table {
   bottom: 0px;
   left: 3%;
   background-color: var(--bread-grey-color);
-  z-index: 1000;
+  z-index: 1;
 }
 .tb-heading {
   background-color: var(--bg-listing-color);
@@ -407,4 +410,10 @@ table th:last-child {
   .checkbox-tb {
     max-width: 85%;
   }
+}
+.banner-wrapper {
+  display: none !important;
+}
+.e-con-inner {
+  max-width: 500px !important;
 }
